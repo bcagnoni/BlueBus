@@ -1561,15 +1561,14 @@ FRAME-LETTER</description>
 <wire x1="-4.3864" y1="1.4986" x2="-4.234" y2="1.4986" width="0.1524" layer="21" curve="-180"/>
 <text x="0" y="3.5" size="0.75" layer="25" ratio="6" rot="SR0" align="bottom-center">&gt;Name</text>
 </package>
-<package name="PCC-M0648M-LE">
-<smd name="1" x="-2.35" y="0" dx="2.7" dy="2.3" layer="1"/>
-<smd name="2" x="2.35" y="0" dx="2.7" dy="2.3" layer="1"/>
-<wire x1="-3.3" y1="3.05" x2="-3.3" y2="-3.05" width="0.1" layer="21"/>
-<wire x1="-3.3" y1="-3.05" x2="3.3" y2="-3.05" width="0.1" layer="21"/>
-<wire x1="3.3" y1="-3.05" x2="3.3" y2="3.05" width="0.1" layer="21"/>
-<wire x1="3.3" y1="3.05" x2="-3.3" y2="3.05" width="0.1" layer="21"/>
-<text x="0" y="3.3" size="1" layer="25" align="bottom-center">&gt;NAME</text>
-<circle x="-4.25" y="0" radius="0.2" width="0.127" layer="21"/>
+<package name="MPL-SE5040">
+<wire x1="-2.6" y1="2.5" x2="-2.6" y2="-2.5" width="0.1" layer="21"/>
+<wire x1="-2.6" y1="-2.5" x2="2.6" y2="-2.5" width="0.1" layer="21"/>
+<wire x1="2.6" y1="-2.5" x2="2.6" y2="2.5" width="0.1" layer="21"/>
+<wire x1="2.6" y1="2.5" x2="-2.6" y2="2.5" width="0.1" layer="21"/>
+<smd name="2" x="-1.85" y="0" dx="4" dy="1.5" layer="1" rot="R90"/>
+<smd name="1" x="1.85" y="0" dx="4" dy="1.5" layer="1" rot="R90"/>
+<circle x="2.95" y="0" radius="0.2" width="0.1" layer="21"/>
 </package>
 <package name="RHS1V101MCN1GS">
 <smd name="1" x="-3.25" y="0" dx="3.3" dy="1.5" layer="1"/>
@@ -2539,20 +2538,21 @@ Switches electrical signals</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="ETQ-P4M100KFN" prefix="L">
+<deviceset name="MPL-SE5040-100" prefix="L">
 <gates>
-<gate name="A" symbol="INDUCTOR" x="0" y="0"/>
+<gate name="G$1" symbol="INDUCTOR" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="PCC-M0648M-LE">
+<device name="" package="MPL-SE5040">
 <connects>
-<connect gate="A" pin="1" pad="1"/>
-<connect gate="A" pin="2" pad="2"/>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="MFG" value="PANASONIC" constant="no"/>
-<attribute name="PN" value="ETQ-P4M100KFN" constant="no"/>
+<attribute name="MFG" value="MPS" constant="no"/>
+<attribute name="PN" value="MPL-SE5040-100" constant="no"/>
+<attribute name="VALUE" value="10uH" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -3292,10 +3292,10 @@ Micro Type B Horizontal SMT - 3A current at Pin1 &amp; Pin 5 - with Pegs</descri
 <part name="C23" library="Passives" deviceset="47NF" device="" value="47nF"/>
 <part name="D1" library="Passives" deviceset="SCHOTTKYDIODE2A100V" device="" value="2A/100V"/>
 <part name="C3" library="Passives" deviceset="22UF" device="" value="22uF"/>
-<part name="C12" library="Passives" deviceset="1UF" device="" value="1uF"/>
+<part name="C12" library="Passives" deviceset="22UF" device="" value="22uF"/>
 <part name="SUPPLY1" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="VIN" device=""/>
 <part name="GND1" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
-<part name="C13" library="Passives" deviceset="1UF" device="" value="1uF"/>
+<part name="C13" library="Passives" deviceset="22UF" device="" value="22uF"/>
 <part name="SUPPLY3" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="5V" device=""/>
 <part name="C17" library="Passives" deviceset="0.1UF" device="" value="0.1uF"/>
 <part name="C16" library="Passives" deviceset="0.1UF" device="" value="0.1uF"/>
@@ -3479,7 +3479,7 @@ Micro Type B Horizontal SMT - 3A current at Pin1 &amp; Pin 5 - with Pegs</descri
 <part name="GND35" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 <part name="R10" library="Passives" deviceset="41.2KOHM" device=""/>
 <part name="C2" library="Passives" deviceset="22UF" device="" value="22uF"/>
-<part name="L2" library="Passives" deviceset="ETQ-P4M100KFN" device=""/>
+<part name="L2" library="Passives" deviceset="MPL-SE5040-100" device="" value="10uH"/>
 <part name="C4" library="Passives" deviceset="0.1UF" device="" value="0.1uF"/>
 <part name="C1" library="Passives" deviceset="RHS1V101MCN1GS" device=""/>
 <part name="XC6702" library="ICs" deviceset="XC6702DC018PR-G" device=""/>
@@ -3682,7 +3682,7 @@ Micro Type B Horizontal SMT - 3A current at Pin1 &amp; Pin 5 - with Pegs</descri
 <attribute name="NAME" x="98.044" y="150.241" size="1.778" layer="95" font="vector"/>
 <attribute name="VALUE" x="98.044" y="145.161" size="1.778" layer="96" font="vector"/>
 </instance>
-<instance part="L2" gate="A" x="83.82" y="152.4" smashed="yes" rot="R90">
+<instance part="L2" gate="G$1" x="83.82" y="152.4" smashed="yes" rot="R90">
 <attribute name="NAME" x="81.28" y="153.67" size="1.778" layer="95" font="vector" rot="R90"/>
 <attribute name="VALUE" x="86.36" y="153.67" size="1.778" layer="96" font="vector" rot="R90" align="top-left"/>
 </instance>
@@ -3895,7 +3895,7 @@ Micro Type B Horizontal SMT - 3A current at Pin1 &amp; Pin 5 - with Pegs</descri
 <wire x1="104.14" y1="152.4" x2="96.52" y2="152.4" width="0.1524" layer="91"/>
 <wire x1="106.68" y1="162.56" x2="106.68" y2="152.4" width="0.1524" layer="91"/>
 <junction x="106.68" y="152.4"/>
-<pinref part="L2" gate="A" pin="2"/>
+<pinref part="L2" gate="G$1" pin="2"/>
 <junction x="88.9" y="152.4"/>
 <pinref part="C4" gate="G$1" pin="1"/>
 <junction x="104.14" y="152.4"/>
@@ -4153,7 +4153,7 @@ Micro Type B Horizontal SMT - 3A current at Pin1 &amp; Pin 5 - with Pegs</descri
 <wire x1="71.12" y1="152.4" x2="58.42" y2="152.4" width="0.1524" layer="91"/>
 <wire x1="71.12" y1="152.4" x2="78.74" y2="152.4" width="0.1524" layer="91"/>
 <junction x="71.12" y="152.4"/>
-<pinref part="L2" gate="A" pin="1"/>
+<pinref part="L2" gate="G$1" pin="1"/>
 </segment>
 </net>
 </nets>

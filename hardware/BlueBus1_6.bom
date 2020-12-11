@@ -1,0 +1,61 @@
+Qty Value                  Device                 Parts                                                                                            MFG         PN                       Price
+20  0.1uF-50v-10%          0.1UF                  C4, C7, C8, C9, C14, C15, C16, C17, C18, C20, C24, C25, C27, C29, C30, C34, C48, C51, C54, C55   Kemet       C0805C104J5RACAUTO       0.063
+12  10k-1/8w-1%            10KOHM                 R2, R3, R4, R13, R15, R17, R25, R26, R27, R30, R32, R34                                          Panasonic   ERJ-6ENF1002V            0.030
+8   10uF-35v-10%           10UF0805               C19, C26, C37, C41, C47, C52, C53, C56                                                           TDK         C2012X5R1V106K125AC      0.0375
+7   1uF-16v-10%            1UF                    C6, C33, C36, C38, C42, C43, C44                                                                 TDK         CGA4J3X7R1H105K125AB     0.149
+5   4.7kOHM-1/8-1%         4.7KOHM                R1, R11, R31, R33, R36                                                                           Panasonic   ERJ-6ENF4701V            0.030
+4   22uF-16v-10%           22UF                   C2, C3, C12, C13                                                                                 TDK         C2012X5R1C226K125AC      0.372
+4   2.2.2uF-25V-10%        2.2UF                  C5, C21, C49, C50                                                                                TDK         CGB4B1X5R1E225K055AC     0.115
+4   2k-1/5w-1%             2KOHM                  R19, R20, R21, R24                                                                               Panasonic   ERJ-6ENF2001V            0.031
+6   100k-1/8w-1%           100KOHM                R5, R6, R16, R18, R22, R23                                                                       Panasonic   ERJ-6ENF1003V            0.031
+3   2A/120OHM              FERRITE_2A/120OHM      FB1, FB2, FB3                                                                                    Bourns      MH2029-121Y              0.037
+2   210-1/8w-1%            210OHM                 R12, R29                                                                                         Panasonic   ERJ-6ENF2100V            0.032
+2   20pF-0805-50v-5%       0.00002uF              C31, C32                                                                                         KEMET       C0805C200J5HACTU         0.030
+2   220PF-0805-50V-5%      0.00022uF              C39, C40                                                                                         Kemet       C0805X221J5HACAUTO       0.065
+2   100-1/8w-1%            100OHM                 R38, R39                                                                                         Panasonic   ERA-6AED101V             0.051
+2   10uF-50v-10%           10UF1206               C10, C11                                                                                         TDK         CGA5L3X5R1H106K160AB     0.396
+2   10nF                   10NF-50v-5%            C45, C46                                                                                         Kemet       C0805C103J5GEC7210       0.010      
+2   2A/100V                SCHOTTKYDIODE2A100V    D1, D2                                                                                           ST          STPS2H100ZFY             0.136
+2   NMOSFET-BSS138K        NMOSFET-BSS138K        Q1, Q3                                                                                           Diodes      BSS138K-7                0.084
+2   LED_GREEN              LED_GREEN              PWR, RX                                                                                          Broadcom    HSMQ-C170-T0000          0.475
+1   RHS1V101MCN1GS         RHS1V101MCN1GS         C1                                                                                               Nichicon    RHS1V101MCN1GS           1.860
+1   20OHM-1/2-1%           20OHM                  R7                                                                                               Panasonic   ERJ-P06F20R0V            0.055
+1   51KOHM                 51KOHM                 R8                                                                                               Panasonic   ERA-6AEB513V             0.112
+1   7.68KOHM               7.68KOHM               R9                                                                                               Panasonic   ERA-6AEB7681V            0.118
+1   41.2KOHM               41.2KOHM               R10                                                                                              Panasonic   ERA-6AEB4122V            0.116
+1   10-1/2w-1%             10OHM                  R14                                                                                              Panasonic   ERJ-P06F10R0V            0.065
+1   0.0001UF-50v-5%        0.0001UF               C22                                                                                              Kemet       C0805C101J5HACAUTO       0.046
+1   47nF-25v-10%           47NF                   C23                                                                                              AVX         08053C473KAT4A           0.103
+1   2-1/4w-5%              2OHM                   R22                                                                                              Panasonic   ERJ-T06J2R0V             0.065
+1   4.7uF-25v-10%          4.7UF                  C28                                                                                              TDK         CGA4J1X7R1E475M125AC     0.211
+1   110-1/8w-1%            110OHM                 R28                                                                                              Panasonic   ERJ-6ENF1100V            0.031
+1   47UF-25v-20%           47UF                   C35                                                                                              Murata      GRM31CR61E476ME44L       0.648
+1   75-1/2w-1%             75OHM                  R35                                                                                              Panasonic   ERJ-P06F75R0V            0.055
+1   18k-1/8-1%             18KOHM                 R37                                                                                              Panasonic   ERJ-6ENF1802V            0.023
+1   750mA                  LITTLEBLOCK_FUSE_.75A  F1                                                                                               Littlefuse  0154.750DRT              1.850
+1   7.5uH-700oHm-4A        ACM70V-701-2PL-TL00    L1                                                                                               TDK         ACM70V-701-2PL-TL00      1.860
+1   ETQ-P4M100KFN          ETQ-P4M100KFN          L2                                                                                               Panasonic   ETQ-P4M100KFN            0.611
+1   PMOSFET-DMP32D4S       PMOSFET-DMP32D4S       Q2                                                                                               Diodes      DMP32D4S-13              0.121
+1   PMOSFET-FDV301N        PMOSFET-FDV301N        Q4                                                                                               ON Semi     FDV301N                  0.064
+1   LED_RED                LED_RED                TX                                                                                               Broadcom    HSMC-C170-T0000          0.320
+1   CRYSTAL-12MHZ          CRYSTAL-12MHZ          X1                                                                                               IQD         LFXTAL035293REEL         0.290
+1   MPQ4420                MPQ4420HGJ-AEC1-Z      MPQ4420                                                                                          MPS         MPQ4420HGJ-AEC1-Z        2.470
+1   PAM8406                PAM8406                PAM8406                                                                                          Diodes      PAM8406DR                0.420
+1   25LC1024               25LC1024               25LC1024                                                                                         Microchip   25LC1024T-I/SM           0.395
+1   USB_WURTH              USB_WURTH              USB                                                                                              Wurth       629105150521             1.610
+1   WM8804                 WM8804                 WM8804                                                                                           Cirrus      WM8804GEDS/RV            6.500
+1   AUDIO-CUI-SJ-3523-SMT  AUDIO-CUI-SJ-3523-SMT  MIC_IN                                                                                           CUI         SJ-3523-SMT-TR           0.672
+1   6PIN_5_103166_1        6PIN_5_103166_1        TCU_IO                                                                                           TE          103166-1                 1.350
+1   FT232RL                FT232RL                FT232RL                                                                                          FTDI        FT232RL-REEL             3.650
+1   PCM5122                PCM5122                PCM5122                                                                                          TI          PCM5122PWR               4.200
+1   BC127                  BC127                  BC127                                                                                            Sierra      BC127-1103383            26.95
+1   PIC24FJ1024GA606       PIC24FJ1024GA606       PIC24FJ1024GA606                                                                                 Microchip   PIC24FJ1024GA606-I/PT    3.650
+1   TH3122.4               TH3122.4               TH3122                                                                                           Melexis     TH3122.4                 1.100
+1   XC6210                 XC6210SOT25            XC6210                                                                                           Torex       XC6210B332MR-G           0.510
+1   XC6702                 XC6702DC01PR-G         XC6702DC01PR-G                                                                                   Torex       XC6702DC01PR-G           0.691
+1   TMUX154E               TMUX154E               TMUX154E                                                                                         TI          TMUX154EDGSR             0.624
+1   SMB_CONN               SMB_CONN               DSP_OUT                                                                                          Molex       73100-0259               3.170
+1   3PIN_963545_1          3PIN_963545_1          PWR_IN                                                                                           TE Conn     1-963545-1               0.200
+1   6PIN_953442_1          6PIN_953442_1          SPKR_OUT                                                                                         TE Conn     953442-1                 1.960
+1   6PIN_JUMPER            6PIN_JUMPER            PICKIT                                                                                           Wurth       61300621121              0.287
+1   2PIN_JUMPER            2PIN_JUMPER            RECOVERY                                                                                         Wurth       61300211121              0.106
